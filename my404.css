@@ -1,0 +1,98 @@
+body { text-align: center;}
+
+.body{
+    position: relative;
+    top: -20em;
+}
+
+.stomac {
+    position: relative;
+    left: 10em;
+    width: 10em;
+    height: 20em;
+    background-color: #00dd00;
+    border-start-start-radius: 100%;
+}
+    
+
+.maskot {
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+}
+.maskot leftfoot, .maskot rightfoot{
+    display: inline-block;
+    width: 5em;
+    height: 10em;
+    background-color: black;
+}
+.maskot leftarm {
+    display: inline-block;
+    position: relative;
+    top: -4em;
+    left: -8em;
+    width: 5em;
+    height: 15em;
+    background-color: rebeccapurple;
+    border-end-end-radius: 100%;
+    border-start-start-radius: 100%;
+}
+.maskot rightarm {
+    display: inline-block;
+    position: relative;
+    top: -5em;
+    left: 6em;
+    width: 5em;
+    height: 15em;
+    background-color: rebeccapurple;
+    border-end-start-radius: 100%;
+    border-start-end-radius: 100%;
+}
+.head {
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
+.head leftiye, .head rightiye {
+    display: inline-block;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    
+}
+.head leftiye {
+    top: 3em;
+    left: -2em;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+
+}
+.head rightiye {
+    width: 3em;
+    top: 3em;
+    left: -1em;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+
+}
+.maskot board {
+    display: inline-block;
+    position: relative;
+    width: 20em;
+    height: 20em;
+    background-color: red;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+
+}
+h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    text-align: center;
+    top: 50%;
+}
